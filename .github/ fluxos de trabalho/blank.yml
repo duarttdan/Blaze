@@ -1,0 +1,17 @@
+name: Blaze
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: 178.222.000
+    - name: Copyright Ltda fuck yoow
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |false
+        echo Add other actions to build,
+        echo test, and deploy your project.
